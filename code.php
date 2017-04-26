@@ -130,7 +130,7 @@ function display_job_meta_box( $job ) {
             <td><input type="text"  name="meta[education]"  value="<?php echo esc_html( get_post_meta( $job->ID, 'education', true ) );?>"  />
 			<td>Openings </td>
             <td><input type="text"  name="meta[openings]"  value="<?php echo esc_html( get_post_meta( $job->ID, 'openings', true ) );?>"  data-validation-length="max10" required  data-validation="number length"/>
-            </td>
+            </td></tr>
 
 		<tr>
             <td>Salary Range </td>
